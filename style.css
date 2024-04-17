@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbaar{
+    height: 120px;
+}
+.navbaar ul{
+    display: inline;
+    position: relative;
+    top: -112px;
+    left: 769px;
+    font-size: 18px;
+
+}
+.navbaar li{
+    display: inline;
+    margin-left: 33px;
+
+}
+
+.navbaar li a{
+    text-decoration: none;
+}
+.navbaar li a:hover{
+color: black;
+}
+
+.navbaar li button {
+    background-color: blue;
+    color: white;
+    height: 54px;
+    width: 94px;
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+    transition: 1s ease-in ;
+    
+}
+
+.navbaar li button:hover{
+   background-color: #fff;
+   color: blue;
+   border-bottom: 20px;
+}
+
+.logo{
+    margin-top: -24px;
+}
+.ring{
+    position: absolute;
+    height: 144%;
+    width: 74%;
+    margin-left: -142px;
+    top: -140px;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+
+.round1{
+    animation: clock 11s linear infinite;
+}
+@keyframes  clock {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+.round2{
+    animation: anticlock 15s linear infinite;
+}
+@keyframes  anticlock {
+    0% {
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.round3{
+    animation: clock 8s linear infinite;
+}
+@keyframes  clock {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+.round4{
+    animation: anticlock 12s linear infinite;
+}
+@keyframes  anticlock {
+    0% {
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.round5{
+    animation: clock 10s linear infinite;
+}   
+
+@keyframes  clock {
+        0% {
+            transform: rotate(0deg);
+        }
+    
+        100% {
+            transform: rotate(-360deg);
+        }
+}
+
+.logoing {
+    width: 25%;
+    margin-top: 141px;
+    margin-left: 230px;
+}
+
+.box {
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    margin-top: -20%;
+    margin-left: 881px;
+
+}
+
+.box button {
+    background-color: blue;
+    color: white;
+    height: 54px;
+    width: 241px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 1s ease-in ;
+    animation: 360deg;
+}
+
+.box button:hover {
+        background-color: #fff;
+        color: blue;
+        border-bottom: 20px;
+ 
+}
+
+.vision h1{
+    display: inline;
+    position: relative;
+    top: 200px;
+    left: 660px;
+    border-bottom: 5px solid blue;
+    font-size: 43px;
+}
+
+.vision .para{
+    display: flex;
+    position: relative;
+    top: 27px;
+    left: 207px;
+    width: 74%;
+}
+
+.vision .para pre{
+    font-size: 20px;
+
+}
+
+.vision img{
+    height: 150px;
+    width: 150px;
+    margin-top: 380px;
+    margin-left: 638px;
+}
+
+.vision a img{
+    height: 140px;
+    width: 140px;
+    margin-top: -222px;
+    margin-left: 59%;
+    animation: anticlock 8s linear infinite;
+}
+@keyframes  anticlock {
+    0% {
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.believe h1{
+    display: inline;
+    position: relative;
+    margin-left: 619px;
+    top: 110px;
+    border-bottom: 5px solid blue;
+    font-size: 43px;
+    padding: 5px;
+}
+
+.photos li img{
+    height: 150px;
+    width: 150px;
+    margin-top: 201px;
+    margin-left:264px;
+}
+
+li{
+    display: inline;
+}
+
+.heading li{
+    margin-left: 256px;
+    font-size: 44px;
+    color: #1976d2;
+}
+
+.initiative h1{
+    display: inline;
+    position: relative;
+    margin-left: 650px;
+    top: 138px;
+    border-bottom: 5px solid blue;
+    font-size: 43px;
+    padding: 5px;
+}
+
+.initiative pre{
+    display: flex;
+    position: relative;
+    left: 243px;
+    width: 74%;
+    font-size: 20px;
+    top: 253px;
+
+}
+
+
+.footer{
+    width: 100%;
+    padding: 30px 0 0 20px;
+    background: #eeeeee;
+}
+
+.footer_main{
+    margin-top: 300px;
+    background-color: #e2eafc;
+}
+
+footer .footer_main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer .footer_main .footer_tag{
+    text-align: center;
+    padding: 40px;
+}
+
+footer .footer_main .footer_tag img{
+    color: #000;
+    margin-bottom: 25px;
+    font-size:30px
+}
+footer .footer_main .footer_tag p{
+    margin: 21px 0;
+    
+}
+
+.footer_tag img{
+    height: 120px;
+    margin-top: -35px;
+}
+
+.footer .copyright {
+   
+    padding-top: 30px;
+    color: #DADFE8;
+}
+
+.mb-5 {
+    margin-bottom: 0.5rem !important;
+    width: 500px;
+    margin-left: -158px;
+    position: relative;
+    left: 395px; 
+    margin-top: 51px;
+
+}
+
+strong {
+    font-weight: bolder;
+}
+
+.box1{
+    width: 287px;
+    color: #000;
+    margin-top: 386px;
+    margin-left: 25px;
+    height: 543px;
+}
+.box1 h4{
+  color: blue;
+  font-size: 1.5rem;
+  border-bottom: 3px solid currentColor;
+
+}
+
+.box1 p{
+    color: black;
+    font-size: 1.3em;
+    margin-top: 45px;
+ 
+}
+
+.box1 img {
+    width: 76%;
+    transition: 0.5s ;
+}
+
+.box1 img:hover{
+    margin-top: -30px;
+}
+
+.box2{
+    height: 543px;
+    width: 287px;
+    color: #000;
+    margin-top: -504px;
+    margin-left: 394px;
+
+}
+
+.box2 h4{
+    color: #fba51b;
+    font-size: 1.5rem;
+    border-bottom: 3px solid currentColor;
+}
+
+.box2 p{
+    color: black;
+    font-size: 1.3em;
+    margin-top: 45px;
+}
+.box2 img {
+    width: 76%;
+    transition: 0.5s ;
+}
+
+.box2 img:hover{
+    margin-top: -30px;
+}
+
+
+.box3{
+    height: 543px;
+    width: 287px;
+   color: #000;
+    margin-top: -602px;
+    margin-left: 761px;
+  
+}
+
+.box3 h4{
+    color: blue;
+    font-size: 1.5rem;
+    border-bottom: 3px solid currentColor;
+}
+
+
+.box3 p{
+    color: black;
+    font-size: 1.3em;
+    margin-top: 45px;
+}
+
+.box3 img {
+    width: 76%;
+    transition: 0.5s ;
+}
+
+.box3 img:hover{
+    margin-top: -30px;
+}
+
+.box4{
+    height: 543px;
+    width: 287px;
+    color: #000;
+    margin-top: -501px;
+    margin-left: 1129px;
+}
+.box4 h4{
+    color:#a30bad;
+    font-size: 1.5rem;
+    border-bottom: 3px solid currentColor;
+}
+
+
+.box4 p{
+    color: black;
+    font-size: 1.3em;
+    margin-top: 45px;
+}
+
+.box4 img {
+    width: 76%;
+    transition: 0.5s ;
+}
+
+.box4 img:hover{
+    margin-top: -30px;
+}
